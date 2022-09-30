@@ -12,4 +12,4 @@ jobs:
         with:
           python-version: 3.x
       - run: pip install mkdocs
-      - run: mkdocs gh-deploy --force --clean --verbose -f ../Github-at-Acerta/mkdocs.yml
+      - run: mkdocs gh-deploy --force --clean --verbose -f ./Github-at-Acerta/mkdocs.yml
